@@ -1,0 +1,19 @@
+.profile-card {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* يدفع المحتوى بالكامل لجهة اليمين */
+    gap: 20px; /* المسافة بين النص والصورة */
+    direction: ltr; /* اتجاه الكتابة من اليسار لليمين */
+}
+
+.profile-text {
+    text-align: left; /* محاذاة النص الإنجليزي لليسار */
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%; /* اختياري: لجعل الصورة دائرية */
+}
