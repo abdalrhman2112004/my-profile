@@ -1,86 +1,176 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Abdalrhman Alrabee</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdalrhman Alrabee | Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-<header>
-  <h2 class="logo">Abdalrhman Mohmmad Hamad Alrabee</h2>
-  <nav>
-    <a href="#about">About</a>
-    <hr>
-    <a href="#skills">Skills</a>
-    <hr>
-    <a href="#projects">Projects</a>
-    <hr>
-    <a href="#contact">Contact</a>
-    <hr>
-  </nav>
-</header>
-
-<section id="hero">
-  <h1>Hi, I'm Abdalrhman</h1>
-  <p>Computer science / internet of things(IOT) student interested in building websites and apps.</p>
-  <a href="#projects" class="btn">View My Projects</a>
-</section>
-
-<div class="profile-card">
-    <div class="profile-text">
-        <h2>About Me</h2>
-        <p>I studied at Al-Balqa Applied University, Al-Hisn University College,
-         and graduated with a specialization in Computer Science / Internet of Things (IoT),
-    I love programming
-    and learn something new every day,My goal is to become a
-    software developer.</p>
+    <!-- Smooth & Soft Fluid Background Mesh -->
+    <div class="fluid-background">
+        <div class="mesh-blob blob-rose"></div>
+        <div class="mesh-blob blob-indigo"></div>
+        <div class="mesh-blob blob-teal"></div>
+        <div class="mesh-blob blob-gold"></div>
+        <div class="grid-overlay"></div>
     </div>
-    <img src="my-profile.jpeg" alt="My Profile" class="profile-img">
-</div>
 
-<section id="skills">
-  <h2>Skills</h2>
-  <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>C#</li>
-    <li>Python</li>
-  </ul>
-</section>
+    <!-- Header / Navbar -->
+    <header>
+        <div class="nav-container">
+            <h1 class="logo">Abdalrhman<span>.Vip</span></h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-<section id="projects">
-  <h2>Projects</h2>
+    <!-- Hero Section -->
+    <section id="about" class="hero">
+        <div class="hero-content">
+            <div class="profile-avatar-wrapper">
+                <img src="my-profile.jpeg" alt="Abdalrhman Alrabee" class="profile-img">
+            </div>
 
-  <div class="project-card">
-    <h3>Abdalrhman's Profile</h3>
-    <p>A personal web portfolio showcasing my skills and projects.</p>
-    <a href="https://github.com/abdalrhman2112004/my-profile" target="_blank">GitHub Link</a>
-  </div>
+            <div class="status-badge">
+                <span class="pulse-dot"></span> Developer & Solution Builder
+            </div>
 
-  <div class="project-card">
-    <h3>Another Project</h3>
-    <p>A short two-line description.</p>
-    <a href="#" target="_blank">GitHub Link</a>
-  </div>
-</section>
+            <h2>Hi, I'm <span>Abdalrhman Mohammed Hamad Alrabee</span></h2>
+            <p>Passionate Developer building clean, modern web applications and software solutions.</p>
 
-<section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:abdalrhmanalrabee2112004@gmail.com">
-          abdalrhmanalrabee2112004@gmail.com</a></p>
-        <p>GitHub: <a href="https://github.com/abdalrhman2112004/my-profile" target="_blank">
-          GitHub Link</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/abdalrhman-alrabee
-          -07423542a?utm_source=share_via&utm_content=profile&utm_medium=member_android"
-           target="_blank">
-          LinkedIn Profile</a></p>
-</section>
+            <a href="#contact" class="btn btn-fluid">
+                <span>Get In Touch</span>
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+    </section>
 
-<footer>
-  <p>© 2026 All rights reserved.</p>
-</footer>
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="section-header">
+            <span class="section-tag">// EXPERTISE</span>
+            <h2 class="section-title">Core Skills</h2>
+        </div>
+
+        <div class="skills-grid">
+            <div class="glass-card skill-card">
+                <div class="skill-icon"><i class="fa-brands fa-html5"></i></div>
+                <div class="skill-details">
+                    <h3>HTML</h3>
+                    <p>Web Structure & Semantics</p>
+                </div>
+            </div>
+
+            <div class="glass-card skill-card">
+                <div class="skill-icon"><i class="fa-brands fa-css3-alt"></i></div>
+                <div class="skill-details">
+                    <h3>CSS</h3>
+                    <p>Modern Layouts & Styling</p>
+                </div>
+            </div>
+
+            <div class="glass-card skill-card">
+                <div class="skill-icon"><i class="fa-solid fa-code"></i></div>
+                <div class="skill-details">
+                    <h3>C#</h3>
+                    <p>Logic & Software Architecture</p>
+                </div>
+            </div>
+
+            <div class="glass-card skill-card">
+                <div class="skill-icon"><i class="fa-brands fa-python"></i></div>
+                <div class="skill-details">
+                    <h3>Python</h3>
+                    <p>Scripting & Automation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="section-header">
+            <span class="section-tag">// PORTFOLIO</span>
+            <h2 class="section-title">Featured Projects</h2>
+        </div>
+
+        <div class="projects-grid">
+            <div class="glass-card project-card">
+                <div class="project-badge">Featured</div>
+                <h3>Abdalrhman's Profile</h3>
+                <p>A personal web portfolio showcasing my skills and projects with a responsive design.</p>
+                <div class="project-footer">
+                    <a href="https://github.com/abdalrhman2112004" target="_blank" class="project-link">
+                        <i class="fa-brands fa-github"></i> GitHub Repository <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="glass-card project-card">
+                <div class="project-badge">Software App</div>
+                <h3>Another Project</h3>
+                <p>A short two-line description explaining the features and functionality of this application.</p>
+                <div class="project-footer">
+                    <a href="https://github.com/abdalrhman2112004" target="_blank" class="project-link">
+                        <i class="fa-brands fa-github"></i> GitHub Repository <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="section-header">
+            <span class="section-tag">// CONNECT</span>
+            <h2 class="section-title">Contact Me</h2>
+        </div>
+
+        <div class="contact-cards">
+            <a href="mailto:abdalrhmanalrabee2112004@gmail.com" class="glass-card contact-card">
+                <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="contact-info">
+                    <small>Direct Email</small>
+                    <span>Email</span>
+                </div>
+            </a>
+
+            <a href="https://github.com/abdalrhman2112004" target="_blank" class="glass-card contact-card">
+                <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+                <div class="contact-info">
+                    <small>Source Code</small>
+                    <span>GitHub</span>
+                </div>
+            </a>
+
+            <a href="#" target="_blank" class="glass-card contact-card">
+                <div class="contact-icon"><i class="fa-brands fa-linkedin"></i></div>
+                <div class="contact-info">
+                    <small>Professional Profile</small>
+                    <span>LinkedIn</span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Abdalrhman Alrabee. Crafted with comfort & precision.</p>
+    </footer>
 
 </body>
 </html>
